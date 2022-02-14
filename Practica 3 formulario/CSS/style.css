@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+body{
+    display: flex;
+}
+#contenedor{
+    margin: 2% auto;
+    width: 40%;
+    background: rgb(206, 231, 240);
+    border: 3px solid black;
+    border-radius: 25px;
+    box-shadow: 8px 28px 25px -18px rgb(116, 110, 110);
+}
+    #cabecera{
+    display: flex;
+    margin: auto;
+    width: auto;
+    padding: 2%;
+    color: white;
+    background: rgb(80, 80, 150);
+    border-radius: 25px 25px 0px 0px ;
+    }
+    
+        #cabeceraIzquierda{
+        flex: 1;
+        margin-right: 2%;
+        }
+        #cabeceraCentro{
+        flex: 1;
+        }
+        #booton{
+        flex: 0.5;
+        margin: auto;
+        }
+
+#tituloCentro{
+    padding: 2%;
+}
+#cuerpo{
+    text-align: right;
+    margin: 4% 0%;
+    margin-right: 30%;
+}
+
+#footer{
+    text-align: center;
+    margin: 4%;
+}
